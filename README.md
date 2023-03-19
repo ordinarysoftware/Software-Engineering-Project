@@ -37,12 +37,12 @@ To start the game, simply click on the "Play" button on the main menu.
 Credits
 
 
-// Use a header to give credit to anyone who contributed to your project.
+
 
 - Nurmukhammad
 
 
-// Provide a list of contributors and their roles.
+
 
 
 License
