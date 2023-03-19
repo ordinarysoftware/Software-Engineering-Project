@@ -5,7 +5,7 @@
 
 
 
-##Bug World Game
+## Bug World Game
 
 
 ![Screenshot (163)](https://user-images.githubusercontent.com/71903387/226182274-aaed7972-7540-4db6-a260-94754792ac19.png)
@@ -24,7 +24,7 @@ This project is a simple game that lets players race against each other.
 
 
 
-##How to Play
+## How to Play
 
 
 
@@ -34,7 +34,7 @@ To start the game, simply click on the "Play" button on the main menu.
 
 
 
-##Credits
+## Credits
 
 
 
@@ -45,7 +45,7 @@ To start the game, simply click on the "Play" button on the main menu.
 
 
 
-##License
+## License
 
 
 
