@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bug War Game - Settings</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/javascript/upload.js"></script>
+  </head>
+  <body>
+    <div class="upload-box">
+      <h1>Bug world</h1>
+      <form action="play.html">
+        <form action="#" method="post" enctype="multipart/form-data">
+          <label for="map-file">Please upload map file:</label>
+          <input type="file" id="map-file" name="map-file" /><br />
+
+          <label for="code-file-1">Please upload assembler code file 1:</label>
+          <input type="file" id="code-file-1" name="code-file-1" /><br />
+
+          <label for="code-file-2">Please upload assembler code file 2:</label>
+          <input type="file" id="code-file-2" name="code-file-2" /><br />
+
+          <button type="submit" class="small-btn" onclick="uploadFiles()">
+            Upload
+          </button>
+          <br />
+        </form>
+        <label for="num-iterations">Number of iterations:</label>
+        <input
+          type="number"
+          id="num-iterations"
+          name="num-iterations"
+          min="1"
+          max="100"
+        /><br /><br />
+        <label for="game-logging">Enable game logging:</label>
+        <input
+          type="checkbox"
+          id="game-logging"
+          name="game-logging"
+        /><br /><br />
+        <button type="submit">Play</button>
+      </form>
+    </div>
+  </body>
+</html>
