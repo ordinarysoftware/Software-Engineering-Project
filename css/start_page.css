@@ -1,0 +1,27 @@
+body {
+  background-color: #000;
+  font-family: "Press Start 2P", cursive;
+  color: #fff;
+  text-align: center;
+}
+h1 {
+  font-size: 4em;
+  margin-top: 2em;
+}
+p {
+  font-size: 2em;
+  margin-bottom: 2em;
+}
+button {
+  font-size: 2em;
+  padding: 0.5em 1em;
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  background-color: #fff;
+  color: #f00;
+}
