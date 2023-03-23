@@ -1,17 +1,24 @@
+/* // This code sets the background color, font family and color for the body element. */
 body {
   background-color: #000;
   font-family: "Press Start 2P", cursive;
   color: #fff;
   text-align: center;
 }
+
+/* // This code sets the font size and margin-top for the h1 element. */
 h1 {
   font-size: 4em;
   margin-top: 2em;
 }
+
+/* This code sets the font size and margin-bottom for the p element. */
 p {
   font-size: 2em;
   margin-bottom: 2em;
 }
+
+/* This code sets the font size, padding, background-color, color, border, cursor, and transition properties for the button element. */
 button {
   font-size: 2em;
   padding: 0.5em 1em;
@@ -21,6 +28,8 @@ button {
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
+
+/*  This code sets the background-color and color properties for the button element when the mouse hovers over it. */
 button:hover {
   background-color: #fff;
   color: #f00;
