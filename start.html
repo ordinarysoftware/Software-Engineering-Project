@@ -1,3 +1,4 @@
+<!-- This is an HTML document for the Bug War Game settings page -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,25 +7,28 @@
     <script src="/javascript/upload.js"></script>
   </head>
   <body>
+    <!-- A container for the upload form -->
     <div class="upload-box">
       <h1>Bug world</h1>
+      <!-- The upload form for the game settings -->
       <form action="play.html">
+        <!-- The form for uploading files -->
         <form action="#" method="post" enctype="multipart/form-data">
-          <label for="map-file">Please upload map file:</label>
+          <label for="map-file">Please upload a world map file:</label>
           <input type="file" id="map-file" name="map-file" /><br />
 
-          <label for="code-file-1">Please upload assembler code file 1:</label>
+          <label for="code-file-1"
+            >Please upload a bug assembler source code file 1:</label
+          >
           <input type="file" id="code-file-1" name="code-file-1" /><br />
 
-          <label for="code-file-2">Please upload assembler code file 2:</label>
+          <label for="code-file-2"
+            >Please upload a bug assembler source code file 2:</label
+          >
           <input type="file" id="code-file-2" name="code-file-2" /><br />
-
-          <button type="submit" class="small-btn" onclick="uploadFiles()">
-            Upload
-          </button>
-          <br />
         </form>
-        <label for="num-iterations">Number of iterations:</label>
+
+        <label for="num-iterations">Please select number of iterations:</label>
         <input
           type="number"
           id="num-iterations"
@@ -32,13 +36,17 @@
           min="1"
           max="100"
         /><br /><br />
+
+        <!-- The label and checkbox for enabling game logging -->
         <label for="game-logging">Enable game logging:</label>
         <input
           type="checkbox"
           id="game-logging"
           name="game-logging"
         /><br /><br />
-        <button type="submit">Play</button>
+
+        <!-- A button for starting the game with the selected settings -->
+        <button type="submit" onclick="uploadFiles()">Play</button>
       </form>
     </div>
   </body>
